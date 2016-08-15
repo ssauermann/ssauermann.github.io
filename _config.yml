@@ -12,18 +12,15 @@ title_separator          : "|"
 name                     : "Sascha Sauermann"
 description              : "Blog about coding and other stuff."
 url                      : https://ssauermann.github.io/
-# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : /
-# the subpath of your site, e.g. "/blog"
 repository               : ssauermann/ssauermann.github.io
-# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : teaser500x300.png
 # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs            : true
-#false # true, false (default)
+breadcrumbs              : true
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : staticman
+# false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -35,7 +32,8 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : # "master", "gh-pages"
+  branch                 : master
+  # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -69,10 +67,8 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : "Person"
-  # Person or Organization (defaults to Person)
-  name                   : "Sascha Sauermann"
-  # If the user or organization name differs from the site's name
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
@@ -96,7 +92,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : https://github.com/ssauermann
+  github           : ssauermann
   google_plus      :
   keybase          :
   instagram        :
