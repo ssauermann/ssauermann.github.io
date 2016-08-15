@@ -6,16 +6,21 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-# breadcrumbs            : false # true, false (default)
+locale                   : "en-us"
+title                    : "Code and Stuff"
+title_separator          : "|"
+name                     : "Sascha Sauermann"
+description              : "Blog about coding and other stuff."
+url                      : https://ssauermann.github.io/
+# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : /
+# the subpath of your site, e.g. "/blog"
+repository               : ssauermann/ssauermann.github.io
+# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : teaser500x300.png
+# filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+breadcrumbs            : true
+#false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -64,8 +69,10 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Person"
+  # Person or Organization (defaults to Person)
+  name                   : "Sascha Sauermann"
+  # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
@@ -77,10 +84,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Sascha Sauermann"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Remember to put some text here!"
+  location         : "Munich, Germany"
   email            :
   uri              :
   bitbucket        :
@@ -89,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : https://github.com/ssauermann
   google_plus      :
   keybase          :
   instagram        :
