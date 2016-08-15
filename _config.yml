@@ -11,15 +11,15 @@ title                    : "Code and Stuff"
 title_separator          : "|"
 name                     : "Sascha Sauermann"
 description              : "Blog about coding and other stuff."
-url                      : https://ssauermann.github.io/
-baseurl                  : /
-repository               : ssauermann/ssauermann.github.io
-teaser                   : teaser500x300.png
+url                      : "https://ssauermann.github.io/"
+baseurl                  : "/"
+repository               : "ssauermann/ssauermann.github.io"
+teaser                   : "teaser500x300.png"
 # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : true
 words_per_minute         : 200
 comments:
-  provider               : staticman
+  provider               : "staticman"
 # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
@@ -32,7 +32,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : master
+  branch                 : "master"
   # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
@@ -85,14 +85,14 @@ author:
   bio              : "Remember to put some text here!"
   location         : "Munich, Germany"
   email            :
-  uri              :
+  uri              : "ssauermann.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : ssauermann
+  github           : "ssauermann"
   google_plus      :
   keybase          :
   instagram        :
