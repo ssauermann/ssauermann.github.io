@@ -1,7 +1,7 @@
 ---
 title: Manipulating the Chromium cache - Part 1 - Why?
 ---
-###Overview
+
 Many applications today are based on parts of the [Chromium](https://www.chromium.org/) code. Firstly there is the [Chrome Browser](https://www.google.com/chrome/) itself. Then there is software based on the [Chromium Embedded Framework (CEF)](https://bitbucket.org/chromiumembedded/) and especially software based on the [Electron Framework](http://electron.atom.io/), which itself is based on the CEF.
 To name some examples: **Atom**, **Curse**, **Discord**, [and many more](http://electron.atom.io/apps/).
 
