@@ -244,4 +244,5 @@ defaults:
       related: true
       permalink: :categories/:year/:month/:day/:title/
       category: Uncategorized
+      tags: none
       
