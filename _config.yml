@@ -16,7 +16,7 @@ baseurl                  : "/"
 repository               : "ssauermann/ssauermann.github.io"
 teaser                   : "teaser500x300.png"
 # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : true
+breadcrumbs              : false
 words_per_minute         : 200
 comments:
   provider               : "staticman"
