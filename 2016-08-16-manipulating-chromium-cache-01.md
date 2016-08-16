@@ -7,6 +7,7 @@ To name some examples: **Atom**, **Curse**, **Discord**, [and many more](http://
 
 
 ###Why should I care what these applications cache?
-For the most of those programs the cache content is probably boring, thats true. But for some it might be interesting what has been cached, e.g. for browsers. There is software for this like [ChromeCacheView](http://www.nirsoft.net/utils/chrome_cache_view.html) or even in Chrome itself via *chrome://cache/*.
-
+For the most of those programs the cache content is probably boring, thats true. But for some it might be interesting what has been cached, e.g. for browsers. There is software for viewing the cache like [ChromeCacheView](http://www.nirsoft.net/utils/chrome_cache_view.html) or *chrome://cache/* in Chrome itself.  
 But I have not found a single tools that allows you to edit the cache's content.
+
+This topic got my attention when I tried Discord and was annoyed by the lack of distinguishable sound effects. Skins and soundpacks will be a paid feature for Discord, but at this time there is no way to buy anything. A short [search](https://www.reddit.com/r/discordapp/comments/3r5pnt/any_word_on_custom_sound_effects/) revealed that the sound files can be found in Discord's resource folder and replaced.
