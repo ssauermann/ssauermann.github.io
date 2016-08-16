@@ -2,6 +2,9 @@
 main:
   - title: "Projects"
     url: projects
+    
+  - title: "Posts by Category"
+    url: categories
 
-  - title: "Posts"
-    url: posts
+  - title: "Posts by Tags"
+    url: tags
