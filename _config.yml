@@ -12,7 +12,7 @@ title_separator          : "|"
 name                     : "Sascha Sauermann"
 description              : "Blog about coding and other stuff."
 url                      : "https://ssauermann.github.io"
-baseurl                  : "/"
+baseurl                  : ""
 repository               : "ssauermann/ssauermann.github.io"
 teaser                   : "teaser500x300.png"
 # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -242,7 +242,7 @@ defaults:
       comments: true
       share: true
       related: true
-      permalink: :categories/:year/:month/:day/:title/
+      permalink: /:categories/:year/:month/:day/:title/
       category: Uncategorized
       tags: none
       
