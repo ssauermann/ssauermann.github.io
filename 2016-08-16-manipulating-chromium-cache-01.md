@@ -1,4 +1,6 @@
-## Manipulating the Chromium cache
+---
+title: Manipulating the Chromium cache - Part 1
+---
 ## Part 1 - Why?
 
 ###Overview
