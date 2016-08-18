@@ -1,2 +1,2 @@
 # ssauermann.github.io
-[Github Page](ssauermann.github.io)
+[Github Page](https://ssauermann.github.io)
