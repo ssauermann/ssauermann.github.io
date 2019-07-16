@@ -2,7 +2,7 @@
 title: Coding and Stuff
 description: A site about me and my projects
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:3000" # "https://ssauermann.github.io" # the base hostname & protocol for your site
+url: "https://ssauermann.github.io" # the base hostname & protocol for your site
 
 # User settings
 username: Sascha Sauermann
