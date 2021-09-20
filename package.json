@@ -19,7 +19,7 @@
   "author": "Willian Justen de Vasconcellos",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer-stylus": "^0.14.0",
+    "autoprefixer-stylus": "^1.0.0",
     "browser-sync": "^2.26.7",
     "grunt": "^1.3.0",
     "gulp": "^4.0.2",
